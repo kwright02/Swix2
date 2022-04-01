@@ -14,6 +14,9 @@
 		3377D0CC27F6E64000B93BE0 /* Swix.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3377D0CA27F6E64000B93BE0 /* Swix.xcdatamodeld */; };
 		3377D0CE27F6E64200B93BE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3377D0CD27F6E64200B93BE0 /* Assets.xcassets */; };
 		3377D0D127F6E64200B93BE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3377D0CF27F6E64200B93BE0 /* LaunchScreen.storyboard */; };
+		3377D0DB27F6E75D00B93BE0 /* SwixWordmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 3377D0D927F6E75D00B93BE0 /* SwixWordmark.png */; };
+		3377D0DC27F6E75D00B93BE0 /* Swix.png in Resources */ = {isa = PBXBuildFile; fileRef = 3377D0DA27F6E75D00B93BE0 /* Swix.png */; };
+		33BE164B27F74E0E00FBE36E /* BudgetEditor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33BE164A27F74E0E00FBE36E /* BudgetEditor.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		3377D0CD27F6E64200B93BE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3377D0D027F6E64200B93BE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3377D0D227F6E64200B93BE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3377D0D927F6E75D00B93BE0 /* SwixWordmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SwixWordmark.png; sourceTree = "<group>"; };
+		3377D0DA27F6E75D00B93BE0 /* Swix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Swix.png; sourceTree = "<group>"; };
+		33BE164A27F74E0E00FBE36E /* BudgetEditor.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BudgetEditor.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +64,27 @@
 		3377D0C027F6E64000B93BE0 /* Swix */ = {
 			isa = PBXGroup;
 			children = (
+				3377D0D827F6E74500B93BE0 /* Assets */,
 				3377D0C127F6E64000B93BE0 /* AppDelegate.swift */,
 				3377D0C327F6E64000B93BE0 /* SceneDelegate.swift */,
 				3377D0C527F6E64000B93BE0 /* ViewController.swift */,
 				3377D0C727F6E64000B93BE0 /* Main.storyboard */,
+				33BE164A27F74E0E00FBE36E /* BudgetEditor.storyboard */,
 				3377D0CD27F6E64200B93BE0 /* Assets.xcassets */,
 				3377D0CF27F6E64200B93BE0 /* LaunchScreen.storyboard */,
 				3377D0D227F6E64200B93BE0 /* Info.plist */,
 				3377D0CA27F6E64000B93BE0 /* Swix.xcdatamodeld */,
 			);
 			path = Swix;
+			sourceTree = "<group>";
+		};
+		3377D0D827F6E74500B93BE0 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				3377D0DA27F6E75D00B93BE0 /* Swix.png */,
+				3377D0D927F6E75D00B93BE0 /* SwixWordmark.png */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3377D0D127F6E64200B93BE0 /* LaunchScreen.storyboard in Resources */,
+				3377D0DB27F6E75D00B93BE0 /* SwixWordmark.png in Resources */,
+				33BE164B27F74E0E00FBE36E /* BudgetEditor.storyboard in Resources */,
+				3377D0DC27F6E75D00B93BE0 /* Swix.png in Resources */,
 				3377D0CE27F6E64200B93BE0 /* Assets.xcassets in Resources */,
 				3377D0C927F6E64000B93BE0 /* Main.storyboard in Resources */,
 			);
@@ -299,6 +319,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -327,6 +348,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
