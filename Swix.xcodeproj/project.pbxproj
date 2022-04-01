@@ -17,6 +17,7 @@
 		3377D0DB27F6E75D00B93BE0 /* SwixWordmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 3377D0D927F6E75D00B93BE0 /* SwixWordmark.png */; };
 		3377D0DC27F6E75D00B93BE0 /* Swix.png in Resources */ = {isa = PBXBuildFile; fileRef = 3377D0DA27F6E75D00B93BE0 /* Swix.png */; };
 		33BE164B27F74E0E00FBE36E /* BudgetEditor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33BE164A27F74E0E00FBE36E /* BudgetEditor.storyboard */; };
+		33BE164D27F750D500FBE36E /* GoalsEditor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33BE164C27F750D500FBE36E /* GoalsEditor.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		3377D0D927F6E75D00B93BE0 /* SwixWordmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SwixWordmark.png; sourceTree = "<group>"; };
 		3377D0DA27F6E75D00B93BE0 /* Swix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Swix.png; sourceTree = "<group>"; };
 		33BE164A27F74E0E00FBE36E /* BudgetEditor.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BudgetEditor.storyboard; sourceTree = "<group>"; };
+		33BE164C27F750D500FBE36E /* GoalsEditor.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GoalsEditor.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				3377D0C327F6E64000B93BE0 /* SceneDelegate.swift */,
 				3377D0C527F6E64000B93BE0 /* ViewController.swift */,
 				3377D0C727F6E64000B93BE0 /* Main.storyboard */,
+				33BE164C27F750D500FBE36E /* GoalsEditor.storyboard */,
 				33BE164A27F74E0E00FBE36E /* BudgetEditor.storyboard */,
 				3377D0CD27F6E64200B93BE0 /* Assets.xcassets */,
 				3377D0CF27F6E64200B93BE0 /* LaunchScreen.storyboard */,
@@ -150,6 +153,7 @@
 				33BE164B27F74E0E00FBE36E /* BudgetEditor.storyboard in Resources */,
 				3377D0DC27F6E75D00B93BE0 /* Swix.png in Resources */,
 				3377D0CE27F6E64200B93BE0 /* Assets.xcassets in Resources */,
+				33BE164D27F750D500FBE36E /* GoalsEditor.storyboard in Resources */,
 				3377D0C927F6E64000B93BE0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
