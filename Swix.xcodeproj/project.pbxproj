@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		335F079F2819D84200FDEE6C /* SavingsGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335F079E2819D84200FDEE6C /* SavingsGoalViewController.swift */; };
 		3377D0C227F6E64000B93BE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3377D0C127F6E64000B93BE0 /* AppDelegate.swift */; };
 		3377D0C427F6E64000B93BE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3377D0C327F6E64000B93BE0 /* SceneDelegate.swift */; };
 		3377D0C627F6E64000B93BE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3377D0C527F6E64000B93BE0 /* ViewController.swift */; };
@@ -16,11 +17,12 @@
 		3377D0D127F6E64200B93BE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3377D0CF27F6E64200B93BE0 /* LaunchScreen.storyboard */; };
 		3377D0DB27F6E75D00B93BE0 /* SwixWordmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 3377D0D927F6E75D00B93BE0 /* SwixWordmark.png */; };
 		3377D0DC27F6E75D00B93BE0 /* Swix.png in Resources */ = {isa = PBXBuildFile; fileRef = 3377D0DA27F6E75D00B93BE0 /* Swix.png */; };
-		33BE164B27F74E0E00FBE36E /* BudgetEditor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33BE164A27F74E0E00FBE36E /* BudgetEditor.storyboard */; };
-		33BE164D27F750D500FBE36E /* GoalsEditor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33BE164C27F750D500FBE36E /* GoalsEditor.storyboard */; };
+		33ABE6692801F86B00468A25 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33ABE6682801F86B00468A25 /* LoginViewController.swift */; };
+		33D54BB8280B2B03007B32A3 /* BudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D54BB7280B2B03007B32A3 /* BudgetViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		335F079E2819D84200FDEE6C /* SavingsGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingsGoalViewController.swift; sourceTree = "<group>"; };
 		3377D0BE27F6E64000B93BE0 /* Swix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3377D0C127F6E64000B93BE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3377D0C327F6E64000B93BE0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,8 +34,8 @@
 		3377D0D227F6E64200B93BE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3377D0D927F6E75D00B93BE0 /* SwixWordmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SwixWordmark.png; sourceTree = "<group>"; };
 		3377D0DA27F6E75D00B93BE0 /* Swix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Swix.png; sourceTree = "<group>"; };
-		33BE164A27F74E0E00FBE36E /* BudgetEditor.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BudgetEditor.storyboard; sourceTree = "<group>"; };
-		33BE164C27F750D500FBE36E /* GoalsEditor.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GoalsEditor.storyboard; sourceTree = "<group>"; };
+		33ABE6682801F86B00468A25 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		33D54BB7280B2B03007B32A3 /* BudgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,9 +72,10 @@
 				3377D0C127F6E64000B93BE0 /* AppDelegate.swift */,
 				3377D0C327F6E64000B93BE0 /* SceneDelegate.swift */,
 				3377D0C527F6E64000B93BE0 /* ViewController.swift */,
+				33ABE6682801F86B00468A25 /* LoginViewController.swift */,
+				33D54BB7280B2B03007B32A3 /* BudgetViewController.swift */,
+				335F079E2819D84200FDEE6C /* SavingsGoalViewController.swift */,
 				3377D0C727F6E64000B93BE0 /* Main.storyboard */,
-				33BE164C27F750D500FBE36E /* GoalsEditor.storyboard */,
-				33BE164A27F74E0E00FBE36E /* BudgetEditor.storyboard */,
 				3377D0CD27F6E64200B93BE0 /* Assets.xcassets */,
 				3377D0CF27F6E64200B93BE0 /* LaunchScreen.storyboard */,
 				3377D0D227F6E64200B93BE0 /* Info.plist */,
@@ -150,10 +153,8 @@
 			files = (
 				3377D0D127F6E64200B93BE0 /* LaunchScreen.storyboard in Resources */,
 				3377D0DB27F6E75D00B93BE0 /* SwixWordmark.png in Resources */,
-				33BE164B27F74E0E00FBE36E /* BudgetEditor.storyboard in Resources */,
 				3377D0DC27F6E75D00B93BE0 /* Swix.png in Resources */,
 				3377D0CE27F6E64200B93BE0 /* Assets.xcassets in Resources */,
-				33BE164D27F750D500FBE36E /* GoalsEditor.storyboard in Resources */,
 				3377D0C927F6E64000B93BE0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,6 +166,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				335F079F2819D84200FDEE6C /* SavingsGoalViewController.swift in Sources */,
+				33ABE6692801F86B00468A25 /* LoginViewController.swift in Sources */,
+				33D54BB8280B2B03007B32A3 /* BudgetViewController.swift in Sources */,
 				3377D0CC27F6E64000B93BE0 /* Swix.xcdatamodeld in Sources */,
 				3377D0C627F6E64000B93BE0 /* ViewController.swift in Sources */,
 				3377D0C227F6E64000B93BE0 /* AppDelegate.swift in Sources */,
@@ -321,6 +325,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -350,6 +355,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
